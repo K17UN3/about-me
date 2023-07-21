@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* h1 */
+.h1 {
+    text-align: center
+}
+
+/* Measure */
+.Measure {
+    text-align: center;
+}
+.Measure p {
+    display: inline-block;
+    text-align: left;
+
+}
+
+/* nav */
+.nav {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.nav-list li {
+    display: inline-block;
+    margin: 0;
+    border-left: 1px solid #808080;
+}
+.nav-list li:first-child {
+    border-left: none;
+}
+.nav-list a {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
