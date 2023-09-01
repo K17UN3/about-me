@@ -47,3 +47,16 @@
     text-align: center;
     border: 8px double darkcyan;
 }
+
+.name {
+    width: 300px;
+}
+
+.mail {
+    width: 300px;
+}
+
+.comment {
+    width: 300px;
+    height: 200px;
+}
