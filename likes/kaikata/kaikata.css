@@ -1,19 +1,16 @@
-/* Topだけで使うCSS */
-/* Contactだけで使うCSS */
 @charset "UTF-8";
 
 /* h1 */
 .h1 {
-    text-align: center;
-    margin: 70px;
+    text-align: center
 }
 
-/* section */
-.section {
+/* kaikata */
+.kaikata {
     text-align: center;
-    margin: 70px;
+    margin: 100px;
 }
-.section p {
+.kaikata p {
     display: inline-block;
     text-align: left;
 }
@@ -22,7 +19,6 @@
 .nav {
     margin-bottom: 30px;
     text-align: center;
-    margin: 100px;
 }
 .nav-list li {
     display: inline-block;
@@ -39,18 +35,6 @@
     text-decoration: none;
 }
 
-/* photo */
-.photo {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-.photo img {
-    width: 250px;
-}
-
-/* botton */
-
 .button {
     display: flex;
     align-items: center;
@@ -60,6 +44,13 @@
     padding: 8px 24px;
     font-size: 16px;
     text-align: center;
-    border: none;
     border: 8px double darkcyan;
+}
+
+.p {
+    line-height: 2
+}
+
+.h2 {
+    color: rgb(10, 36, 131);
 }

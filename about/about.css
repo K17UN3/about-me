@@ -1,1 +1,49 @@
 /* aboutだけで使うCSS */
+@charset "UTF-8";
+
+/* h1 */
+.h1 {
+    text-align: center
+}
+
+/* section */
+.section {
+    text-align: center;
+    margin: 100px;
+}
+.section p {
+    display: inline-block;
+    text-align: left;
+}
+
+/* nav */
+.nav {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.nav-list li {
+    display: inline-block;
+    margin: 0;
+}
+.nav-list li:first-child {
+    border-left: none;
+}
+.nav-list a {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    padding: 8px 24px;
+    font-size: 16px;
+    text-align: center;
+    border: 8px double darkcyan;
+}

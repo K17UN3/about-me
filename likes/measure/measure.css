@@ -1,19 +1,16 @@
-/* Topだけで使うCSS */
-/* Contactだけで使うCSS */
 @charset "UTF-8";
 
 /* h1 */
 .h1 {
-    text-align: center;
-    margin: 70px;
+    text-align: center
 }
 
-/* section */
-.section {
+/* Measure */
+.Measure {
     text-align: center;
-    margin: 70px;
+    margin: 100px;
 }
-.section p {
+.Measure p {
     display: inline-block;
     text-align: left;
 }
@@ -22,7 +19,6 @@
 .nav {
     margin-bottom: 30px;
     text-align: center;
-    margin: 100px;
 }
 .nav-list li {
     display: inline-block;
@@ -40,26 +36,28 @@
 }
 
 /* photo */
-.photo {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+img {
+    object-fit: cover;
+    width: 650px;
+    height: 350px;
 }
-.photo img {
-    width: 250px;
-}
-
-/* botton */
 
 .button {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     height: 40px;
     padding: 8px 24px;
     font-size: 16px;
     text-align: center;
-    border: none;
     border: 8px double darkcyan;
+}
+
+.p {
+    line-height: 2
+}
+
+.h2 {
+    color: rgb(34, 136, 140);
 }

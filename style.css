@@ -2,4 +2,9 @@
 
 *{
     color: #272727;
+
+    background-color: aquamarine;
+    
+    background: url("/img/white-1.jpg");
+    background-attachment: fixed;
 }
