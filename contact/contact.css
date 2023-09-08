@@ -67,3 +67,13 @@
     width: 60px;
     height: 30px;
 }
+
+.reset {
+    width: 250px;
+    height: 30px;
+}
+
+.list {
+    list-style: none;
+    margin: 10px;
+}
