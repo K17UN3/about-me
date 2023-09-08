@@ -41,8 +41,12 @@
 
 /* photo */
 .photo {
-    width: 300px;
-    height: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.photo img {
+    width: 250px;
 }
 
 /* botton */
