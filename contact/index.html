@@ -18,18 +18,21 @@
   </header>
 
   <section class="address" id="address">
-    <form>
+    <form action="###">
+
       <label for="namae">お名前</label><br>
-      <input class="name" id="namae" type="text" name="yourname"><br><br>
+      <input class="name" id="namae" type="text" name="yourname"><br><br><br>
 
       <label for="mail">メールアドレス</label><br>
-      <input class="mail" id="mail" type="email" name="email"><br><br>
+      <input class="mail" id="mail" type="email" name="email"><br><br><br>
 
       <label for="comment">コメント</label><br>
-      <textarea class="comment" id="comment" name="comment" placeholder="自由にコメントを入力してください"></textarea><br><br>
+      <textarea class="comment" id="comment" name="comment" placeholder="自由にコメントを入力してください"></textarea><br><br><br>
+
+      <label><input type="radio" name="level" value="ok">見やすいサイトだと思う</label>
+      <label><input type="radio" name="level" value="bad">見づらいサイトだと思う</label><br><br>
 
       <li class="list"><p class="p">良ければお答えください</p></li>
-
       <li class="list"><select name="cat" class="cat">
         <option value="cat" selected class="option">紹介した猫の中で気になる子を選んでください</option>
           <option value="manchkin">マンチカン</option>
@@ -39,9 +42,7 @@
           <option value="Devon Rex">デボンレックス</option>
         <option value="Toyger">トイガー</option>
         </select>
-      </li>
-
-<br>
+      </li><br><br>
 
       <li class="list"><input class="sousin" type="submit" value="送信"></li>
       <li class="list"><input class="reset" type="reset" value="入力した内容を全てリセットします"></li>
