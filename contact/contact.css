@@ -50,13 +50,20 @@
 
 .name {
     width: 300px;
+    height: 30px;
 }
 
 .mail {
     width: 300px;
+    height: 30px;
 }
 
 .comment {
     width: 300px;
     height: 200px;
+}
+
+.sousin {
+    width: 60px;
+    height: 30px;
 }
