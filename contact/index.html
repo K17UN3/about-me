@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="">
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="./contact.css">
   <title>お問い合わせ</title>
@@ -27,15 +28,18 @@
       <label for="comment">コメント</label><br>
       <textarea class="comment" id="comment" name="comment" placeholder="自由にコメントを入力してください"></textarea><br><br>
 
-      <select name="cat" class="cat">
-        <option value="cat" selected>紹介した猫の中で気になる子を選んでください</option>
+      <li class="list"><p class="p">良ければお答えください</p></li>
+      <li class="list"><select name="cat" class="cat">
+        <option value="cat" selected class="option">紹介した猫の中で気になる子を選んでください</option>
         <option value="manchkin">マンチカン</option>
         <option value="bobtail">ジャパニーズボブテイル</option>
         <option value="ragdoll">ラグドール</option>
         <option value="peterbald">ピーターボールド</option>
         <option value="Devon Rex">デボンレックス</option>
         <option value="Toyger">トイガー</option>
-      </select>
+      </select></li>
+
+<br>
 
       <li class="list"><input class="sousin" type="submit" value="送信"></li>
       <li class="list"><input class="reset" type="reset" value="入力した内容を全てリセットします"></li>

@@ -75,10 +75,14 @@
 
 .list {
     list-style: none;
-    margin: 20px;
+    margin: 15px;
 }
 
 .cat {
     height: 30px;
     width: 320px;
+}
+
+.p {
+    color: #848080;
 }
