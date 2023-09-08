@@ -77,3 +77,8 @@
     list-style: none;
     margin: 10px;
 }
+
+.cat {
+    height: 30px;
+    width: 320px;
+}
