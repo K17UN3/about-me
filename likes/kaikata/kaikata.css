@@ -61,6 +61,7 @@
 
 .photo {
     text-align: center;
+    display: flex;
     width: 20px;
     height: 20px;
 }
